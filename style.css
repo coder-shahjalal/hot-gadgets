@@ -11,11 +11,10 @@ body {
 
 .carousal-edit {
   border-radius: 10px;
-  background-color: aqua;
   margin-top: 0px;
 }
 .carousel-item {
-  margin: 20px 40px;
+  padding: 20px 40px;
 }
 /* .img-edit-width {
   width: 100px;
@@ -33,7 +32,7 @@ p {
   margin: 25px 0;
 }
 .border-shadow {
-  box-shadow: 10px 10px 20px rgb(150, 149, 149);
+  box-shadow: 10px 10px 30px rgb(202, 201, 201);
   border-radius: 8px;
 }
 .card {
@@ -61,7 +60,7 @@ p {
   height: 220px;
   width: 220px;
   padding: 40px;
-  margin: 20px px;
+  margin-top: 40px;
   box-shadow: 5px 5px 40px rgb(226, 225, 225);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 25px;
@@ -78,4 +77,25 @@ p {
   padding: 50px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 25px;
+}
+.catagories img {
+  padding: 50px;
+  width: 120%;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.carousel-indicators li {
+  background-image: linear-gradient(gray, lightgray);
+  border: 10px;
+  width: 10px;
+  height: 9px;
+  border-radius: 10px;
+}
+.carousel-indicators li:hover {
+  background-image: linear-gradient(rgb(248, 164, 95), rgb(248, 148, 54));
+  border: 10px;
+  width: 25px;
+  height: 9px;
+  border-radius: 10px;
 }
