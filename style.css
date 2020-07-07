@@ -56,27 +56,29 @@ p {
 .catagories-2 {
   margin-top: 50px;
 }
-.catagories-2 img {
-  height: 220px;
-  width: 220px;
+.catagories-2-img {
+  height: 250px;
+  width: 250px;
   padding: 40px;
   margin-top: 40px;
   box-shadow: 5px 5px 40px rgb(226, 225, 225);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 25px;
+  text-align: center;
 }
 
 .catogories-bag {
   margin-top: 200px;
 }
 
-.catogories-bag img {
+.catogories-bag {
   box-shadow: 5px 5px 40px rgb(224, 224, 224);
-  height: 220px;
-  width: 220px;
-  padding: 50px;
+  height: 250px;
+  width: 250px;
+  padding: 30px 60px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 25px;
+  text-align: center;
 }
 .catagories img {
   padding: 50px;
